@@ -1,4 +1,4 @@
-// check for valid brackets using stack 
+// check for valid brackets using stack - leetcode easy-medium;
 
 class Stack {
     constructor(){
