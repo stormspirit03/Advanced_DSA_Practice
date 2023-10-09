@@ -1,3 +1,4 @@
+
 class Queue{
     constructor(values) {
         if(!values) this.data = []
