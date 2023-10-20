@@ -1,4 +1,4 @@
-let arr = [1,2,2,4,3,5,6,6,7];
+let arr = [1,2,2,4,3,5,6,6,7];   // expected [1,4,3,5,7]
 let countObject = {};
 
 
