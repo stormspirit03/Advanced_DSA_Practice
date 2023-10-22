@@ -29,5 +29,18 @@ class TreeNode{
 }
 
 function depthOfBinaryTree(root){
-  
+    function heightOfBinaryTree(root){
+        if (!root) return 0;
+        return 1 + Math.max(heightOfBinaryTree(root.left), heightOfBinaryTree(root.right));
+   } 
+   
+   var diameterOfBinaryTree = function(root) {
+       if(!root) return 0;
+       let leftHeight = heightOfBinaryTree(root.left);
+       let rightHeight = heightOfBinaryTree(root.right);
+       let leftDiameter = diameterOfBinaryTree(root.left);
+       let rightDiameter = diameterOfBinaryTree(root.right);
+       return Math.max((leftHeight + rightHeight), Math.max(leftDiameter, rightDiameter) );
+       
+   };
 }
