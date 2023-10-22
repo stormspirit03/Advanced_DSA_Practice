@@ -1,6 +1,6 @@
 
 
-// swap right and left nodes
+// swap right and left nodes 
 class TreeNode{
     constructor(val,left,right){
         this.val = val;
