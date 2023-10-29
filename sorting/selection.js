@@ -1,4 +1,5 @@
 // selection sort
+// selection  sort ( select min and put it to ith position. array starts sorting from begining instead of ending unlike bubble sort.
 let arr = [2,1,4,5,3,7];
 
 for(let i=0; i<arr.length; i++){
